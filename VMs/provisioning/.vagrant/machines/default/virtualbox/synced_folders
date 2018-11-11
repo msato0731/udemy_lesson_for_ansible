@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"type":"virtualbox","guestpath":"/vagrant","hostpath":"/Users/satomasaki/work/ansible/udemy/lesson-for-ansible-s2","disabled":false,"owner":"vagrant","group":"vagrant","__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"type":"virtualbox","guestpath":"/vagrant","hostpath":"/Users/satomasaki/work/ansible/udemy/lesson-for-ansible","disabled":false,"owner":"vagrant","group":"vagrant","__vagrantfile":true}}}
