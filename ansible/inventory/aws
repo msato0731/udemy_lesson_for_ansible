@@ -1,0 +1,6 @@
+[l4a-web]
+l4-web01.chariii.tk ec2_vpc_subnet_id=subnet-35f8466e
+l4-web02.chariii.tk ec2_vpc_subnet_id=subnet-601f5d29
+
+[l4a-db]
+l4-db01.chariii.tk ec2_vpc_subnet_id=subnet-35f8466e

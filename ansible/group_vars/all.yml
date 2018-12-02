@@ -1,7 +1,7 @@
 unix_groups:
-  - { name: "group_a", gid: 2100, state: "present"}
-  - { name: "group_b", gid: 2200, state: "present"}
-  - { name: "group_c", gid: 2300, state: "present"}
+  - { name: "group_a", gid: 2100, state: "present" }
+  - { name: "group_b", gid: 2200, state: "present" }
+  - { name: "group_c", gid: 2300, state: "present" }
 
 unix_users:
   - {
@@ -10,8 +10,8 @@ unix_users:
       group: "group_a",
       state: "present",
       comment: "User A",
-      password: "$6$W3ouOfFvNT.XFpe3$UjMgsS9nnGuBN1JrAeK.IGn09fZDi/hTXyVa0Av.jbHEAmNSZ/e.pV2vj/q5j1fnNkk.tlph/zh2HsNnylwFi.",
-      public_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVl4d7TBKC9/4ln0+8V1B7hhbmIyxsgcaVDY8YXZI5/3hXSvK+ggAYWsBYsNwbGH1+oJ5u7/jmtSnRbXNpA2Lm7Id9Fz1VF2mVx/UbEBU9XuMtQSd4IX8uU+aTksuAzbK1BFY1ghAJEZvZh2+W9IlgHC+ShvbD4H6dIOQb5864Eyykj8Pk7QT8g/mCetxJ/Hw7H/0QRfFeOQ7nKB+Zqih9dm/M6XRfBa7ZUSGpPZFYrmts8lGyT+U8tHLkbKPQHOH6r0nc22rYwa+Vvwh152wrJrXeA/sF6degYmJJ0AfnAEtWjVxhic4iUCVrzQnTtH7D2U+R1qwA7zlfjhQSEkjD foo@l4a-provisioning.localdomain"
+      password: "$6$3h3wNIzXG3raqQ3F$dd3xGGmXN6rolZyFt11UEA64DnVq.Etp8DrV.XbdXu2YqRkSTilznkyJkERia0jPk6LaeflDotNNxm0Y35.W5/",
+      public_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbDz6aO82knKIuuFbZBSJTy5/kBmUoU/ttahx0oJJW+CkikY32ePQyWcG2WvjBOYW5h3LnoUrYmXZsLX7aq4QmguGdpBqkXcDMWdgoQAvwK1uN9T+nqBRuQ6LF1DFvHDiyARET/ERaUlphoYkPrPqcQrr7qpe0Ot7M1ypEUavtcPefwspGk5aIfyI/KdLuN9vnqn5EY7UIxyVr9FyH0+76PS4BjVEcIqI+5oZlt4+pg2cJ13/ZMnxzrKM/HODOiRP84X3aNVL6WdENEKPQbOrynVAZs8h+Ld2g2tj3ZghncXX9OZZCTK0ynxW3OQ8qE6VeiwdLepCkJ/guyVZlhUG9 hogehoge"
     }
   - {
       name: "user_b",
@@ -19,6 +19,6 @@ unix_users:
       group: "group_b",
       state: "present",
       comment: "User B",
-      password: "$6$W3ouOfFvNT.XFpe3$UjMgsS9nnGuBN1JrAeK.IGn09fZDi/hTXyVa0Av.jbHEAmNSZ/e.pV2vj/q5j1fnNkk.tlph/zh2HsNnylwFi.",
-      public_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVl4d7TBKC9/4ln0+8V1B7hhbmIyxsgcaVDY8YXZI5/3hXSvK+ggAYWsBYsNwbGH1+oJ5u7/jmtSnRbXNpA2Lm7Id9Fz1VF2mVx/UbEBU9XuMtQSd4IX8uU+aTksuAzbK1BFY1ghAJEZvZh2+W9IlgHC+ShvbD4H6dIOQb5864Eyykj8Pk7QT8g/mCetxJ/Hw7H/0QRfFeOQ7nKB+Zqih9dm/M6XRfBa7ZUSGpPZFYrmts8lGyT+U8tHLkbKPQHOH6r0nc22rYwa+Vvwh152wrJrXeA/sF6degYmJJ0AfnAEtWjVxhic4iUCVrzQnTtH7D2U+R1qwA7zlfjhQSEkjD foo@l4a-provisioning.localdomain"
+      password: "$6$3h3wNIzXG3raqQ3F$dd3xGGmXN6rolZyFt11UEA64DnVq.Etp8DrV.XbdXu2YqRkSTilznkyJkERia0jPk6LaeflDotNNxm0Y35.W5/",
+      public_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbDz6aO82knKIuuFbZBSJTy5/kBmUoU/ttahx0oJJW+CkikY32aPQyWca2WvjBOYW5hALnoUBYmXZsLX7aq4QmguGdpBqkXcDMWdgoQAvwK1uN9T+nqBRuQ6LF1DFvHDiyARET/ERaUlphoYkPrPqcQrr7qpe0Ot7M1ypEUavtcPefwspGk5aIfyI/KdLuN9vnqn5EY7UIxyVr9FyH0+76PS4BjVEcIqI+5oZlt4+pg2cJ13/ZMnxzrKM/HODOiRP84X3aNVL6WdENEKPQbOrynVAZs8h+Ld2g2tj3ZghncXX9OZZCTK0ynxW3OQ8qE6VeiwdLepCkJ/guyVZlhUG9 goemon"
     }

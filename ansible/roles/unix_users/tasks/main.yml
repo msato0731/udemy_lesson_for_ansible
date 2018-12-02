@@ -9,7 +9,7 @@
   with_items:
     - "{{ unix_users }}"
 
-- name: Set autorized key
+- name: Set authorized key
   authorized_key:
     user: "{{ item.name }}"
     key: "{{ item.public_keys }}"

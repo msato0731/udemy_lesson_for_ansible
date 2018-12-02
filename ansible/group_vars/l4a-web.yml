@@ -17,3 +17,21 @@ httpd:
     KeepAlive: "On"
     MaxKeepAliveRequests: 100
     KeepAliveTimeout: 30
+
+ec2_region: ap-northeast-1
+ec2_instance_type: t2.micro
+ec2_image: ami-0a2de1c3b415889d2
+ec2_key_name: syayou_mykey20180629
+ec2_volumes:
+  - device_name: /dev/xvda
+    volume_type: gp2
+    volume_size: 8
+    delete_on_termination: true
+ec2_instance_profile_name: l4a-ec2-role
+ec2_group: ['l4a-web']
+ec2_tags:
+  Domain: chariii.tk
+  Environment: l4a
+  Role: web
+ec2_assign_public_ip: yes
+ec2_vpc_subnet_id: subnet-35f8466e
